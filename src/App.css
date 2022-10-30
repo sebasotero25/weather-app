@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* background-image: url(https://img.freepik.com/premium-photo/rain-water-drop-falling-city-street-floor-heavy-rain-day_1962-2005.jpg?w=1060);
+    background-size: cover; */
+}
+
+.card{
+    background-color: rgb(66, 156, 170);
+    padding: 40px ;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px black;
+    opacity: 0.7;
+    color: white;
+    
+}
+
+.button{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 2px;
+    background-color: rgb(24, 160, 195);
+    color: white;
+   font-weight: bold;
+   margin-top: 10px;
+}
+.button:hover{
+  transform: scale(1.1);
+  filter: brightness(1.1);
+  transition: transform 10ms ease;
+  background-color: aqua;
+}
+.title{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.container{
+   font-weight: bold;
+    
+}
+.container2{
+   text-align: center;
+   margin-top: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ubi{
+ margin-right: 15px;
+ color: black;
+}
+
+
+.Rain{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/rain-water-drop-falling-city-street-floor-heavy-rain-day_1962-2005.jpg?w=1060);
+}
+
+.Clouds{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/clear-air-fly-fantastic-travel_1232-3824.jpg?w=1380&t=st=1667097668~exp=1667098268~hmac=0e7ea3ab5d90447b64d9883b9dfbdfcad5743ff60a9afacdb5bba85f0e9e7f08);
+}
+
+.Snow{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-snowy-landscape-with-mountains_181624-26450.jpg?w=1060&t=st=1667098076~exp=1667098676~hmac=ae8994e96b61c0d8726dfdf769d12454a68afce163f47fd1b733f28347194537);
+}
+
+.Wind{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-shot-tree-branches-leaning-power-wind_181624-19439.jpg?w=1060&t=st=1667098013~exp=1667098613~hmac=ee71ecd2d94d479e5fc848b6ebaaed0ba03dae4b2bd434b69bbf7f567d89e693);
+}
+
+.Sun{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-environment-landscape-green-field_29332-1855.jpg?w=1060);
+}
+
+.Sunny{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-environment-landscape-green-field_29332-1855.jpg?w=1060);
+}
+
+.Sunrise{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-environment-landscape-green-field_29332-1855.jpg?w=1060);
+}
+
+.Sunset{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(https://img.freepik.com/premium-photo/beautiful-environment-landscape-green-field_29332-1855.jpg?w=1060);
+}
